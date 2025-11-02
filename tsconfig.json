@@ -16,11 +16,12 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2020",
-    "module": "es2020",
+    "target": "es2022",
+    "module": "es2022",
     "lib": [
       "es2020",
-      "dom"
+      "dom",
+      "esnext"
     ]
   },
   "angularCompilerOptions": {
@@ -29,4 +30,9 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   }
+  ,
+  "exclude": [
+    "src/**/*.spec.ts",
+    "node_modules"
+  ]
 }
