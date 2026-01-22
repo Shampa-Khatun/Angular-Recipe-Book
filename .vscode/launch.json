@@ -7,7 +7,7 @@
       "type": "pwa-chrome",
       "request": "launch",
       "preLaunchTask": "npm: start",
-      "url": "https://shampa-khatun.github.io/Angular-Recipe-Book/"
+      "url": "http://localhost:4200/"
     },
     {
       "name": "ng test",
